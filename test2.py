@@ -1,3 +1,3 @@
-x=[1,2,3]
-print(len(x))
-print("hello")
+import sqlite3
+conn = sqlite3.connect('db.db')
+c = conn.cursor()
